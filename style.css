@@ -1,44 +1,38 @@
 body {
     font-family: 'Poppins', sans-serif;
-    font size: 40px;
+    font-size: 16px;
     margin: 0%;
 }
 
 #bannerimage {
     width: 100%;
     background-image: url(image/banner/banner1.png);
-    height: 700px;
-    background-color: gray;
+    background-image: no-repeat;
+    height: 750px;
     background-position: center;
     margin: 0%;
 
 }
 
-div {
+.half-width {
     text-align: right;
+    width: 50%;
     padding-right: 15%;
     margin: 10%;
-
-
 }
 
-h1 {
-    font-size: 60px;
+.half-width h1 {
+    font-size: 57px;
     padding-left: 50%;
     margin-left: 5%;
     margin-top: 12%;
 
 }
 
-p {
+.half-width p {
     text-align: right;
     padding-left: 50%;
     margin-left: 5% 5%;
-
-}
-
-.flexible-container {
-    display: flex;
 
 }
 
@@ -47,7 +41,115 @@ p {
     font-weight: 700;
     text-decoration: none;
     background-image: linear-gradient(rgb(255, 132, 0), tomato);
-    padding: 10px 40px;
+    padding: 17px 40px;
     border-radius: 5px;
+    padding-top: 10%;
+    padding-bottom: 20%;
 
+}
+
+.flexible-container {
+    display: flex;
+
+}
+
+
+.half-widthi-image {
+    width: 50%;
+    padding-left: 12%;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+
+.half-width-content {
+    width: 50%;
+    padding-top: 19%;
+
+}
+
+.half-width-content h2 {
+    font-size: 32px;
+}
+
+.icon {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.icons {
+    width: 20%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 7%;
+}
+
+.icons p {
+    font-size: 22px;
+}
+
+#bannerimage2 {
+    width: 100%;
+    background-image: url(image/pic/watch.png);
+    height: 750px;
+    background-position: top;
+    margin: 0%;
+    background-repeat: no-repeat;
+}
+
+.half-width2 {
+    text-align: left;
+    width: 50%;
+    padding-left: 15%;
+    margin: 10%;
+}
+
+.half-width2 h1 {
+    color: white;
+    font-size: 32px;
+}
+
+.call-button {
+    color: rgb(133, 44, 12);
+    font-weight: 700;
+    text-decoration: none;
+    background-image: white;
+    backface-visibility: visible;
+    padding: 17px 40px;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    margin-top: 0%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.footer-content {
+    color: white;
+    width: 50%;
+    padding-left: 20%;
+
+}
+
+.subscribe {
+    width: 50%;
+    color: white;
+    padding-left: 15%;
+}
+
+.icon-flex {
+    display: flex;
+}
+
+.footer-icon {
+    width: 15%;
+}
+
+.button {
+    border-image-outset: 2%;
 }
