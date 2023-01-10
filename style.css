@@ -43,8 +43,6 @@ body {
     background-image: linear-gradient(rgb(255, 132, 0), tomato);
     padding: 17px 40px;
     border-radius: 5px;
-    padding-top: 10%;
-    padding-bottom: 20%;
 
 }
 
@@ -102,7 +100,7 @@ body {
     text-align: left;
     width: 50%;
     padding-left: 15%;
-    margin: 10%;
+
 }
 
 .half-width2 h1 {
@@ -111,22 +109,22 @@ body {
 }
 
 .call-button {
-    color: rgb(133, 44, 12);
+    color: rgb(233, 73, 15);
     font-weight: 700;
     text-decoration: none;
     background-image: white;
-    backface-visibility: visible;
     padding: 17px 40px;
     border-radius: 5px;
+
 }
 
 .footer {
     display: flex;
     background-color: black;
     width: 100%;
-    margin-top: 0%;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+
 }
 
 .footer-content {
@@ -148,8 +146,4 @@ body {
 
 .footer-icon {
     width: 15%;
-}
-
-.button {
-    border-image-outset: 2%;
 }
